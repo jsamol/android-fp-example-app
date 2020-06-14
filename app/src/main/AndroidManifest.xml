@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="io.github.jsamol.mvitemplate">
+    package="io.github.jsamol.fp">
 
     <application
-        android:name=".app.MviApp"
+        android:name="io.github.jsamol.fp.app.FpApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="io.github.jsamol.fp.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
